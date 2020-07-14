@@ -3,6 +3,10 @@
 //
 #include <iostream>
 
+/*
+ * 二叉树层次遍历算法
+ */
+
 //定义二叉链表结点结构体类型
 typedef struct BiTNode {
     char data;

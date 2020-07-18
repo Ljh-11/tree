@@ -102,7 +102,7 @@ void Creat_BST(BSTree & T, int str[], int n) {
 
     int i = 0;
     while (i < n) {
-        BST_Insert(T, str[i]);
+        BST_Insert(T, str[i]);//用二叉排序树的非递归插入算法构造构造
         i++;
     }
 }
